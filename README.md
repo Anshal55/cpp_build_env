@@ -17,3 +17,5 @@ bazel-bin/src/app/appname
 ```bash
 bazel run src/app:appname
 ```
+
+### Will keep adding more
