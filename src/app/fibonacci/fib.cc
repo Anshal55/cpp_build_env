@@ -6,7 +6,7 @@ int main()
 {
     int num;
     std::cout << "\n============================================\n";
-    std::cout << "WARNING:: For larger numbers(>49) unoptimized solution will take quite long.\n";
+    std::cout << "WARNING:: For larger numbers(>45) unoptimized solution will take quite long.\n";
     std::cout << "Enter the number :: ";
     std::cin >> num;
     {
