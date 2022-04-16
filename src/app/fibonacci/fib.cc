@@ -5,7 +5,7 @@
 int main()
 {
     int num;
-    std::cout << "\n============================================\n";
+    std::cout << "\n========================================================================================:)\n";
     std::cout << "WARNING:: For larger numbers(>45) unoptimized solution will take quite long.\n";
     std::cout << "Enter the number :: ";
     std::cin >> num;
@@ -24,7 +24,7 @@ int main()
         std::cout << "\nOptimized Fib:: " << ans << "\n";
         std::cout << "Optimized:: ";
     }
-    std::cout << "\n============================================\n";
+    std::cout << "\n========================================================================================:)\n";
 
     return 0;
 }
