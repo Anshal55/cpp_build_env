@@ -1,0 +1,6 @@
+# bazelrc file for a simple demo
+
+# Linux
+build:linux --cxxopt=-std=c++20
+build:linux --host_cxxopt=-std=c++20
+build:linux --copt=-w
