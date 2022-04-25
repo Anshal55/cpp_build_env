@@ -1,4 +1,5 @@
 #include <iostream>
+#include <glog/logging.h>
 #include "src/includes/fibonacci/fiblib.h"
 #include "src/includes/timer/timer.h"
 
