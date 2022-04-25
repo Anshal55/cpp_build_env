@@ -1,8 +1,9 @@
 #include <iostream>
-
+// GLOG
 #include "glog/logging.h"
 #include "glog/stl_logging.h"
 
+// Internal Dependencies
 #include "src/includes/fibonacci/fiblib.h"
 #include "src/includes/timer/timer.h"
 
