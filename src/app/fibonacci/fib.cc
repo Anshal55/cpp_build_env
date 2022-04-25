@@ -1,13 +1,18 @@
 #include <iostream>
-#include <glog/logging.h>
+
+#include "glog/logging.h"
+#include "glog/stl_logging.h"
+
 #include "src/includes/fibonacci/fiblib.h"
 #include "src/includes/timer/timer.h"
 
-int main()
+int main(int argc, const char **argv)
 {
+    google::InitGoogleLogging(argv[0]);
+
     int num;
     std::cout << "\n========================================================================================:)\n";
-    std::cout << "WARNING:: For larger numbers(>45) unoptimized solution will take quite long.\n";
+    LOG(WARNING) << "For larger numbers(>45) unoptimized solution will take quite long.\n";
     std::cout << "Enter the number :: ";
     std::cin >> num;
     {
