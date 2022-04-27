@@ -14,6 +14,7 @@
 
 int main(int argc, const char **argv)
 {
+    // intialize google logging
     google::InitGoogleLogging(argv[0]);
 
     std::vector<std::string> vec = {"foo", "bar", "baz"};
